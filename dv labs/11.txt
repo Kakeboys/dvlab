@@ -1,0 +1,40 @@
+q1 
+open powerbi
+open excel workbook
+select hr dataset
+in that select hr data and load 
+then transform data,  in add column select condition column and give name attrition count and continue filling. 
+then close and apply
+later in the data table there is a attrition count change the format to decimal from text and after that right click on the attrition count and write the formula: Attrition Rate = (SUM('HR data' [Attrition Count])/COUNT('HR data' [Employee Count]))*100
+commit and changes it to decimal text from general
+select multi row card add employee count, attrition count, attrition rate, cf current employee and average of age to the the fields 
+ then open format your visuals in call out values and category labels increase size
+
+
+\q2
+in attribution rate select new measure and give there upper = attribution rate
+and lower = 0
+selct a line chart add gender to x axis and attrition rate to y axis 
+in further analysis select error bars add upper to upper bound and lower to lower bound	
+open format aselcet markers in that open shape and increase the size of the shape to 20x
+in marker select male and change colour
+
+q3
+select pie chart drag department to legend and attriton count to values
+in format open detailed label , label contents change to category , percent of total and increase size
+
+q4
+select stock clusterd column chart
+add cf age band to x axis and employee count to y axis and turn on data labels
+add cf age band to x axis and cf current employee to y axis and turn on data labels
+
+Q5
+SELECT TABLE
+drag job role and job satisfaction to column
+drag job role to the filter on this visualization , change the filter type from advance filtering to the basic filtering and select 1
+to increase the size change the size in the format table
+
+q7 
+select horizontal bar chart 
+add education field to the y axis and attrition count to the x axis and again education field to the legend 
+turn on data fields , if required increase the size if the value

@@ -1,0 +1,37 @@
+q1
+import amazon datafile 
+load the data
+in the data panel right click on the show id , new measure and write   show count = COUNT(amazon_prime_titles[show_id]) and commit
+then select donot chart 
+add type to legend and show count to values 
+in format visuals click on detail label and change label contents to all detail label
+increase the size in the value table
+
+q2
+select area chart 
+add release year to x axis and show count to y axis and type to legend
+open format visuals turn on the	data labels 
+if we want to change colur click on lines and select tv shows and change colour
+
+q3
+select stacked bar chart 
+add listedin to filter on this visual and change filter type to top n and then put 10. later add show count to by value
+add listed in y axis and legend
+add show count to xaxis
+then turn on the data label and increase the size in the values
+
+q4
+select map
+add country to the location and the legend 
+add show count to tooltip
+
+q5 
+select table 
+add description and title to the columns
+add type to the filter on the visual
+select any one type 
+select movies you want in the title column
+we can increase size in values
+
+q6
+to create a dashboard copy all the q's and paste it in the one page and arrange it  
